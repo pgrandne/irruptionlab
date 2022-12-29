@@ -1,2 +1,2 @@
-# irruptionlab
+# Irruption Lab
 Website for IrruptionLab
