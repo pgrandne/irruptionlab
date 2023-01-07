@@ -15,7 +15,7 @@ export default function Home() {
             height={120}
           />
           <hr />
-          <h1 className="text-2xl text-gray-800 text-center leading-normal font-bold dark:text-gray-100">What we've built</h1>
+          <h1 className="text-2xl text-gray-800 text-center leading-normal font-bold dark:text-gray-100">What we &apos;ve built</h1>
           <div className="bg-slate-100 border border-gray-300 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="https://interpool.app" target="_blank" rel="noreferrer">
               <Image className="flex-shrink-0 mt-2 mx-auto"
