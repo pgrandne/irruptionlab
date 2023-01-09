@@ -14,16 +14,16 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="flex justify-center items-center flex-col relative z-10 top-[60px]">
+      <div className="flex justify-center items-center flex-col relative z-10 top-[60px] ml-[50px]">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          Building applications
+          Building applications <br />for Web3 democratization
         </motion.h1>
-        <motion.div
+        {/* <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
         >
           <h1 className={styles.heroHeading}>for Web3 democratization</h1>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       <motion.div
