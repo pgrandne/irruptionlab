@@ -40,7 +40,7 @@ const Hero = () => (
         <img
           src="/logo_IL.png"
           alt="hero_cover"
-          className="absolute left-1/2 h-[30%] bottom-[150px] z-10 sepia"
+          className="absolute left-1/2 h-[30%] bottom-[100px] md:bottom-[150px] z-10 sepia"
         />
 
         <a href="#explore">

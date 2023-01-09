@@ -13,11 +13,11 @@ const Navbar = () => {
   const renderThemeChanger = () => {
     if (theme === 'dark') {
       return (
-        <SunIcon className="w-[70px] h-[70px] text-amber-500 object-contain" role="button" onClick={() => setTheme('light')} />
+        <SunIcon className="w-[6%] h-[6%] text-amber-500 object-contain" role="button" onClick={() => setTheme('light')} />
       );
     }
     return (
-      <MoonIcon className="w-[70px] h-[70px] text-gray-900 object-contain" role="button" onClick={() => setTheme('dark')} />
+      <MoonIcon className="w-[6%] h-[6%] text-gray-900 object-contain" role="button" onClick={() => setTheme('dark')} />
     );
   };
 
