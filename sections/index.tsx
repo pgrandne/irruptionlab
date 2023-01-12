@@ -4,7 +4,6 @@ import Explore from './Explore';
 import GetStarted from './GetStarted';
 import WhatsNew from './WhatsNew';
 import Insights from './Insights';
-import Feedback from './Feedback';
 
 export {
     Hero,
@@ -13,5 +12,4 @@ export {
     GetStarted,
     WhatsNew,
     Insights,
-    Feedback,
 };

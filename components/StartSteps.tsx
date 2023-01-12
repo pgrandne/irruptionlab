@@ -9,8 +9,8 @@ const StartSteps = ({ number, text }: { number: string, text: string }) => (
                 {number}
             </p>
         </div>
-        <p className="flex-1 ml-[30px] font-normal text-[18px] text-[#B0B0B0] leading-[32.4px]">
-            {text}
+        <p className="flex-1 ml-[30px] font-semibold text-[18px] leading-[32.4px]">
+            {text !== "urlCalendly" ? text : <a href="https://calendly.com/irruptionlab" target="_blank" rel="noreferrer">Click here to schedule a meeting with us</a>}
         </p>
     </div>
 );

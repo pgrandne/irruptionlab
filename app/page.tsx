@@ -3,7 +3,7 @@
 import { ThemeProvider } from 'next-themes';
 import { Footer, Navbar } from '../components';
 
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew } from '../sections';
+import { About, Explore, GetStarted, Hero, Insights, WhatsNew } from '../sections';
 
 const Page = () => (
     <ThemeProvider enableSystem attribute="class">
@@ -23,7 +23,6 @@ const Page = () => (
             <div className="relative">
                 <Insights />
                 <div className="gradient-04 z-0" />
-                <Feedback />
             </div>
             <Footer />
         </div >

@@ -28,9 +28,11 @@ const ExploreCard = ({ id, imgUrl, title, href, status, index, active, handleCli
             className="absolute w-full h-full object-cover rounded-[24px]"
         />
         {active !== id ? (
-            <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
-                {title}
-            </h3>
+            <span className="box-decoration-slice rounded-md bg-gradient-to-r from-indigo-600 to-pink-500 absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
+                <h3 className="px-2 font-semibold sm:text-[26px] text-[20px] text-white">
+                    {title}
+                </h3>
+            </span>
         ) : (
             <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
                 <a href={href} target={status === "prod" ? "_blank" : "_self"} rel="noreferrer">
