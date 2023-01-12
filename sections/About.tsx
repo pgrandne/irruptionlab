@@ -27,7 +27,7 @@ const About = () => {
                     <span className="font-extrabold">The blockchain</span>{' '}is a complicated world, barely accessible for those who are not already in the ecosystem.
                     Simplification and accessibility are key for massive adaption.
                     NFT trend onboarded plenty of new comers, which had no idea of the technology behind it, and maybe that's a good thing. Once you have one step inside this world you might want to dig more... as most of us did when we joined the ecosystem.<br /><br />
-                    <span className="font-extrabold">Irruption Lab</span>{' '}is simply working on building app that could help onboard new comers. We develop easy-to-access dapps (decentralized applications) with real interest in real life. Our aim is to allow everyone to have access to this technology and all its opportunities.
+                    <span className="font-extrabold">Irruption Lab</span>{' '}is simply working on building apps that could help onboard new comers. We develop easy-to-access dapps (decentralized applications) with real interest in real life. Our aim is to allow everyone to have access to this technology and all its opportunities. All our work is open source.
                 </motion.p>
 
                 <motion.img
