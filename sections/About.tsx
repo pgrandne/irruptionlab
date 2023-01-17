@@ -16,7 +16,7 @@ const About = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
+                className={`overflow-hidden ${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
             >
                 <TypingText title="| About Irruption Lab" textStyles="text-center" />
 
@@ -29,7 +29,6 @@ const About = () => {
                     NFT trend onboarded plenty of new comers, which had no idea of the technology behind it, and maybe that's a good thing. Once you have one step inside this world you might want to dig more... as most of us did when we joined the ecosystem.<br /><br />
                     <span className="font-extrabold">Irruption Lab</span>{' '}is simply working on building apps that could help onboard new comers. We develop easy-to-access dapps (decentralized applications) with real interest in real life. Our aim is to allow everyone to have access to this technology and all its opportunities. All our work is open source.
                 </motion.p>
-
                 <motion.img
                     variants={fadeIn('up', 'tween', 0.3, 1)}
                     src={theme !== "light" ? "/arrow-down-white.svg" : "/arrow-down.svg"}
@@ -37,7 +36,7 @@ const About = () => {
                     className="w-[18px] h-[28px] object-contain mt-[28px]"
                 />
             </motion.div>
-        </section>
+        </section >
     );
 }
 
