@@ -1,15 +1,15 @@
 export const exploreWorlds = [
     {
         id: 'card-1',
-        imgUrl: '/npng.png',
+        imgUrl: '/NoPoolNoGame-site.png',
         title: 'No Pool No Game',
         href: 'https://nopoolnogame.xyz',
         status: 'prod',
     },
     {
         id: 'card-2',
-        imgUrl: '/interpool.png',
-        title: 'Interpool',
+        imgUrl: '/InterPool-site.png',
+        title: 'InterPool',
         href: 'https://interpool.app',
         status: 'prod',
     },
@@ -59,17 +59,17 @@ export const newFeatures = [
 
 export const insights = [
     {
-        imgUrl: '/tron.jpeg',
-        title: 'Interpool won several prizes on TRON Hackaton',
+        imgUrl: '/InterPool-Hackathon-square.png',
+        title: 'TRON Hackathon winner with InterPool',
         subtitle:
-            'We participated to TRON Hackathon during November 2022 and won 2 prizes',
+            'Winner of several prizes from HackaTRON 2022 S3 \n (1,180 participants), with InterPool: \n🥇 1st Place Ecosystem Prizes — TRON DAO Forum \n🥇 5th Place Technical — Ecosystem (EVM)',
         urlExt: "https://devpost.com/software/interpool",
     },
     {
-        imgUrl: '/ethonline.png',
-        title: 'No Pool No Game won several prizes on ETH Online 2022',
+        imgUrl: '/NPNG-Hackathon.png',
+        title: 'ETH Online 2022 winner with No Pool No Game',
         subtitle:
-            'We participated to ETH Online 2022 in September 2022 and won 3 prizes',
+            'Winner of several prizes from ETHOnline 2022 hackathon by ETHGlobal (1,780 participants from 100 countries), with No Pool No Game:\n🥇 1st Place Stablecoin Growth — AAVE Grants DAO \n🥇 1st Place Best Optimism Game — Optimism \n🥇 Top 10 projects — Optimism',
         urlExt: "https://ethglobal.com/showcase/no-pool-no-game-4cahd",
     },
 ];

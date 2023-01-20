@@ -33,7 +33,7 @@ const InsightCard = ({ imgUrl, title, subtitle, urlExt, index }: {
                     <h4 className="font-semibold lg:text-[42px] text-[26px]">
                         {title}
                     </h4>
-                    <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
+                    <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white whitespace-pre-line">
                         {subtitle}
                     </p>
                 </div>
