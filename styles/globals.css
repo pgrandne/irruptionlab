@@ -30,6 +30,18 @@ body {
     filter: blur(125px);
   }
   
+  .gradient-IL-Logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    right: 50px;
+  
+    background: #c8a1f5;
+    filter: blur(125px);
+    z-index: -1;
+  }
+
   .hero-gradient {
     background: linear-gradient(
       97.86deg,
