@@ -23,7 +23,7 @@ const Navbar = () => {
           alt="dark icon"
           width={500}
           height={500}
-          className="w-[6%] h-[6%] object-contain"
+          className="w-16 sm:w-30"
           role="button"
           onClick={() => setTheme("dark")}
         />
@@ -35,7 +35,7 @@ const Navbar = () => {
         alt="light icon"
         width={500}
         height={500}
-        className="w-[6%] h-[6%] object-contain"
+        className="w-16 sm:w-30"
         role="button"
         onClick={() => setTheme("light")}
       />
@@ -53,7 +53,7 @@ const Navbar = () => {
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
       >
-        <Link className="w-[30%] h-[30%] z-0" href="/">
+        <Link className="z-0" href="/">
           <Image
             src="/IrruptionLab.svg"
             alt="Irruption Lab"
