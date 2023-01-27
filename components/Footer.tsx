@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from 'framer-motion'
 import { socials } from '../constants'
 import styles from '../styles'
@@ -30,9 +31,11 @@ const Footer = () => {
                     <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
                     <div className="flex items-center justify-between flex-wrap gap-4">
-                        <h4 className="font-extrabold text-[24px]">
+                        <Link href="/" className="font-extrabold text-[24px]">
+                            {/* <h4 > */}
                             Irruption Lab
-                        </h4>
+                            {/* </h4> */}
+                        </Link>
                         <p className="font-normal text-[14px] opacity-50">
                             Copyright © 2023 Irruption Lab. All rights reserved.
                         </p>

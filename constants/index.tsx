@@ -2,6 +2,7 @@ export const exploreWorlds = [
     {
         id: 'card-1',
         imgUrl: '/NoPoolNoGame-site.png',
+        pageUrl: '/nopoolnogame',
         title: 'No Pool No Game',
         href: 'https://nopoolnogame.xyz',
         status: 'prod',
@@ -9,6 +10,7 @@ export const exploreWorlds = [
     {
         id: 'card-2',
         imgUrl: '/InterPool-site.png',
+        pageUrl: '/interpool',
         title: 'InterPool',
         href: 'https://interpool.app',
         status: 'prod',
@@ -16,6 +18,7 @@ export const exploreWorlds = [
     {
         id: 'card-3',
         imgUrl: '/plznftme.svg',
+        pageUrl: '/plznftme',
         title: 'Plz Nft Me',
         href: "https://plz-nft-me.vercel.app",
         status: 'prod',
@@ -23,17 +26,19 @@ export const exploreWorlds = [
     {
         id: 'card-4',
         imgUrl: '/revolte.svg',
+        pageUrl: '/revolte',
         title: 'Revolte',
         href: "javascript:undefined",
         status: 'dev',
     },
-    {
-        id: 'card-5',
-        imgUrl: '/tipool.svg',
-        title: 'Tipool',
-        href: "javascript:undefined",
-        status: 'dev',
-    },
+    // {
+    //     id: 'card-5',
+    //     imgUrl: '/tipool.svg',
+    //     pageUrl: '/tipool',
+    //     title: 'Tipool',
+    //     href: "javascript:undefined",
+    //     status: 'dev',
+    // },
 ];
 
 export const startingFeatures = [
