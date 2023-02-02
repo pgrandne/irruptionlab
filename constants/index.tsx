@@ -25,7 +25,7 @@ export const exploreWorlds = [
     },
     {
         id: 'card-4',
-        imgUrl: '/revolte.svg',
+        imgUrl: '/abasourdi.png',
         pageUrl: '/revolte',
         title: 'Revolte',
         href: "javascript:undefined",
