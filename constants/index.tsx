@@ -28,7 +28,7 @@ export const exploreWorlds = [
         imgUrl: '/abasourdi.png',
         pageUrl: '/revolte',
         title: 'Revolte',
-        href: "javascript:undefined",
+        href: "https://www.revolte.app/",
         status: 'dev',
     },
     // {
