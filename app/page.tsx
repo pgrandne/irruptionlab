@@ -7,7 +7,7 @@ const Page = () => (
         <Hero />
         <div className="relative">
             <About />
-            <div className="gradient-03 z-0" />
+            <div className="opacity-50 sm:opacity-100 gradient-03 z-0" />
             <Explore />
         </div>
         <div className="relative">

@@ -24,7 +24,7 @@ const Hero = () => (
         variants={slideIn("right", "tween", 0.2, 1)}
         className="relative -mt-[100px] sm:-mt-[160px] sm:ml-[80px]"
       >
-        <div className="absolute w-[50%] inset-0 gradient-IL-Logo" />
+        <div className="absolute w-[50%] inset-0 gradient-IL-Logo opacity-50 sm:opacity-100" />
         <Image
           className="w-[75px] sm:w-[150px] lg:[250px]"
           src="/logo_IL.svg"
