@@ -22,7 +22,7 @@ const About = () => {
 
                 <motion.p
                     variants={fadeIn('up', 'tween', 0.2, 1)}
-                    className="mt-[8px] font-normal px-20 sm:text-[32px] text-[20px] text-center text-secondary-white"
+                    className="mt-[8px] font-normal px-2 md:px-10 sm:text-[32px] text-[20px] text-center text-secondary-white"
                 >
                     <span className="font-extrabold">The blockchain</span>{' '}is a complicated world.<br /><br />
                     {/* barely accessible for those who are not already in the ecosystem. */}

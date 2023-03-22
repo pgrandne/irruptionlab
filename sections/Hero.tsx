@@ -6,7 +6,7 @@ import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 import Image from "next/image";
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} mt-[100px] sm:pl-16 pl-6`}>
+  <section className={`${styles.yPaddings} mt-[2px] sm:mt-[60px] sm:pl-16 pl-6`}>
     <motion.div
       variants={staggerContainer()}
       initial="hidden"
@@ -29,8 +29,8 @@ const Hero = () => (
           className="w-[75px] sm:w-[150px] lg:[250px]"
           src="/logo_IL.svg"
           alt="logo irruption lab"
-          width={250}
-          height={250}
+          width={200}
+          height={200}
         />
       </motion.div>
     </motion.div>

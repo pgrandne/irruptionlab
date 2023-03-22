@@ -57,8 +57,8 @@ const Navbar = () => {
           <Image
             src="/IrruptionLab.svg"
             alt="Irruption Lab"
-            width={500}
-            height={500}
+            width={350}
+            height={350}
           />
         </Link>
         {renderThemeChanger()}

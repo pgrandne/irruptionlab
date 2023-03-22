@@ -1,10 +1,25 @@
 import Link from "next/link";
 import Image from 'next/image';
 
+
 const Revolte = () => (
     <>
+        <div className="flex justify-center items-center">
+        <div>
         <h1 className="text-center font-semibold text-[50px]  mt-10 ">Revolte</h1>
         <h2 className="text-center font-semibold text-[20px]  mb-10">Story of a whistleblower</h2>
+        </div>
+        <Link href="https://www.revolte.app/" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100">
+        <div className="mx-10">
+            <Image
+            src="/link.svg"
+            alt="Website"
+            width={50}
+            height={50}
+          />   
+        </div>        
+        </Link>
+        </div>
         <p className="text-justify mt-10 px-10 md:px-44">Join the Web3 revolution with <i>Revolte! </i> <br /><br />
         Our adventure game introduces users to the world of blockchain, wallets, tokens, and more, with mandatory tasks like wallet installation to guide players through the story. Explore real Web3 applications and experience the potential of this transformative technology.<br /><br /></p>
         <Link href="https://www.revolte.app/" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100">
