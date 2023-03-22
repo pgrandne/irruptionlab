@@ -29,7 +29,7 @@ export const exploreWorlds = [
         pageUrl: '/revolte',
         title: 'Revolte',
         href: "https://www.revolte.app/",
-        status: 'dev',
+        status: 'prod',
     },
     // {
     //     id: 'card-5',

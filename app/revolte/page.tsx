@@ -61,7 +61,7 @@ const Revolte = () => (
         
         {/* <h2 className="text-center font-semibold text-[30px]  mt-10 mb-10">Video</h2>
         <iframe width="560" height="315" src="https://youtu.be/D83JsWduODM" title="Video presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-        <h2 className="text-center font-semibold text-[30px]  mt-10 mb-10"><Link className="text-white underline hover:opacity-80" href="https://www.revolte.app/" target="_blank" rel="noopener noreferrer">Revolte Website</Link></h2>
+        <h2 className="text-center font-semibold text-[30px]  mt-10 mb-10"><Link className="text-white underline hover:opacity-80" href="https://www.revolte.app/" target="_blank" rel="noopener noreferrer">www.revolte.app</Link></h2>
         
     </>
 )

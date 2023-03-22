@@ -26,7 +26,7 @@ const Hero = () => (
       >
         <div className="absolute w-[50%] inset-0 gradient-IL-Logo opacity-50 sm:opacity-100" />
         <Image
-          className="w-[75px] sm:w-[150px] lg:[250px]"
+          className="w-[75px] sm:w-[130px]"
           src="/logo_IL.svg"
           alt="logo irruption lab"
           width={200}
