@@ -9,7 +9,7 @@ export const exploreWorlds = [
     },
     {
         id: 'card-2',
-        imgUrl: '/InterPool-site.png',
+        imgUrl: '/interpool-screenshot.png',
         pageUrl: '/interpool',
         title: 'InterPool',
         href: 'https://interpool.app',
@@ -67,7 +67,7 @@ export const insights = [
         imgUrl: '/InterPool-Hackathon-square.png',
         title: 'TRON Hackathon winner with InterPool',
         subtitle:
-            'Winner of several prizes from HackaTRON 2022 S3 \n (1,180 participants), with InterPool: \n🥇 1st Place Ecosystem Prizes — TRON DAO Forum \n🥇 5th Place Technical — Ecosystem (EVM)',
+            'Winner of several prizes from HackaTRON 2022 S3  (1,180 participants), with InterPool: \n🥇 1st Place Ecosystem Prizes — TRON DAO Forum \n🥇 5th Place Technical — Ecosystem (EVM)',
         urlExt: "https://devpost.com/software/interpool",
     },
     {
