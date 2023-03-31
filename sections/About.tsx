@@ -28,7 +28,7 @@ const About = () => {
                     {/* barely accessible for those who are not already in the ecosystem. */}
                     {/* Simplification and accessibility are key for massive adaption. */}
                     {/* NFT trend onboarded plenty of new comers, which had no idea of the technology behind it, and maybe that's a good thing. Once you have one step inside this world you might want to dig more... as most of us did when we joined the ecosystem.<br /><br /> */}
-                    <span className="font-extrabold">Irruption Lab</span>{' '}builds apps that could help onboard newcomers. <br /><br />Our goal is to make this technology and its potential accessible to everyone by creating decentralized applications (dapps) that are easily accessible and relevant to real-life situations. <br /><br />All our work is <span className="font-extrabold">open source.</span>
+                    <span className="font-extrabold">Irruption Lab</span>{' '}builds apps that facilitate the onboarding process for new users. <br /><br />Our goal is to make this technology and its potential accessible to everyone by creating decentralized applications (dapps) that are easily accessible and relevant to real-life situations. <br /><br />All our work is <span className="font-extrabold">open source.</span>
                 </motion.p>
                 <motion.img
                     variants={fadeIn('up', 'tween', 0.3, 1)}

@@ -64,6 +64,13 @@ export const newFeatures = [
 
 export const insights = [
     {
+        imgUrl: '/RetroPGF2.png',
+        title: 'Optimism RetroPGF2 recipient with Revolte',
+        subtitle:
+            'Retroactive Public Goods Funding is the engine that drives the growth of the Optimism ecosystem (195 projects nominated)',
+        urlExt: "https://optimism.mirror.xyz/Upn_LtV2-3SviXgX_PE_LyA7YI00jQyoM1yf55ltvvI?rpgf=2",
+    },
+    {
         imgUrl: '/InterPool-Hackathon-square.png',
         title: 'TRON Hackathon winner with InterPool',
         subtitle:
