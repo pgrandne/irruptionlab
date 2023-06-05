@@ -64,6 +64,20 @@ export const newFeatures = [
 
 export const insights = [
     {
+        imgUrl: '/autonomous_world.png',
+        title: 'Autonomous World winner with Revolte',
+        subtitle:
+            'Winner of ETHGlobal hackathon "Autonomous World", with Revolte: \n🏅 Top 10 projects — NFT Storage',
+        urlExt: "https://ethglobal.com/showcase/revolte-dc1y9",
+    },
+    {
+        imgUrl: '/hackatronS4prizes.png',
+        title: 'TRON Hackathon winner with RevoluTRON',
+        subtitle:
+            'Winner of several prizes from HackaTRON S4 (among 172 projects), with RevoluTRON: \n🥈 2nd Place GameFi — Judges selection \n🥉 3rd Place GameFi — TRON DAO Forum',
+        urlExt: "https://dorahacks.io/buidl/4450",
+    },
+    {
         imgUrl: '/RetroPGF2.png',
         title: 'Optimism RetroPGF2 recipient with Revolte',
         subtitle:
@@ -74,7 +88,7 @@ export const insights = [
         imgUrl: '/InterPool-Hackathon-square.png',
         title: 'TRON Hackathon winner with InterPool',
         subtitle:
-            'Winner of several prizes from HackaTRON 2022 S3  (1,180 participants), with InterPool: \n🥇 1st Place Ecosystem Prizes — TRON DAO Forum \n🥇 5th Place Technical — Ecosystem (EVM)',
+            'Winner of several prizes from HackaTRON S3  (1,180 participants), with InterPool: \n🥇 1st Place Ecosystem Prizes — TRON DAO Forum \n🏅 5th Place Technical — Ecosystem (EVM)',
         urlExt: "https://devpost.com/software/interpool",
     },
     {
