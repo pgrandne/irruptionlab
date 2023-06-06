@@ -11,17 +11,17 @@ const Hero = () => (
       variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: false, amount: 0 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="relative flex flex-col ml-[100px] lg:ml-[350px] mr-[10px] sm:ml-[250px]">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+        <motion.h1 variants={textVariant(0.8)} className={styles.heroHeading}>
           Building applications <br />
           for Web3 democratization
         </motion.h1>
       </div>
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={slideIn("right", "tween", 0.1, 1)}
         className="relative -mt-[100px] sm:-mt-[160px] sm:ml-[80px]"
       >
         <div className="absolute w-[50%] inset-0 gradient-IL-Logo opacity-50 sm:opacity-100" />
