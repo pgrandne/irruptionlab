@@ -19,7 +19,7 @@ const Revolte = () => (
         href="https://www.revolte.app/"
         target="_blank"
         rel="noopener noreferrer"
-        className="opacity-90 hover:opacity-100"
+        className="opacity-90 hover:opacity-100 "
       >
         <div className="ml-10">
           <Image src="/link.svg" alt="Website" width={50} height={50} />
