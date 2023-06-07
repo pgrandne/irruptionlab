@@ -1,21 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Rubik_Dirt } from "@next/font/google";
+
+const rubikdirt = Rubik_Dirt({ weight: "400", subsets: ["latin"] });
 
 const Interpool = () => (
   <>
-    <div className="flex justify-center items-center">
-      <div>
-        <h1 className="text-center font-semibold text-[50px]  mt-10 ">
-          InterPool
-        </h1>
+    <div className="flex justify-center items-center mt-5">
+      <div className={rubikdirt.className}>
+        <h1 className="text-center text-[50px] md:text-[80px]">InterPool</h1>
       </div>
       <Link
         href="https://interpool.app"
         target="_blank"
         rel="noopener noreferrer"
-        className="opacity-80 hover:opacity-100"
+        className="opacity-90 hover:opacity-100"
       >
-        <div className="mx-10">
+        <div className="ml-10">
           <Image src="/link.svg" alt="Website" width={50} height={50} />
         </div>
       </Link>

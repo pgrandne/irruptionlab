@@ -31,7 +31,7 @@ const Footer = () => {
                     <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
                     <div className="flex items-center justify-between flex-wrap gap-4">
-                        <Link href="/" className="font-extrabold text-[24px]">
+                        <Link href="/" className="font-extrabold text-[24px] opacity-80 hover:opacity-100">
                             {/* <h4 > */}
                             Irruption Lab
                             {/* </h4> */}
@@ -50,7 +50,7 @@ const Footer = () => {
                                         alt={social.name}
                                         width={500}
                                         height={500}
-                                        className="w-[24px] h-[24px] object-contain cursor-pointer"
+                                        className="w-[24px] h-[24px] object-contain cursor-pointer opacity-80 hover:opacity-100"
                                     />
                                 </a>
                             ))}

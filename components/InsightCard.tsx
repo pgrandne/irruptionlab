@@ -40,12 +40,12 @@ const InsightCard = ({ imgUrl, title, subtitle, urlExt, index }: {
 
                 <a
                     href={urlExt} target="_blank" rel="noreferrer"
-                    className={`lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[2px] ${borderColor()}`}
+                    className={`lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[2.5px] ${borderColor()}`}
                 >
                     <img
                         src={theme !== "light" ? "/arrow-white.svg" : "/arrow.svg"}
                         alt="arrow"
-                        className="w-[40%] h-[40%] object-contain"
+                        className="w-[40%] h-[40%] object-contain opacity-90 hover:opacity-100"
                     />
                 </a>
             </div>

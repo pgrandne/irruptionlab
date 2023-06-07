@@ -1,14 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Permanent_Marker } from "@next/font/google";
+
+const permarker = Permanent_Marker({ weight: "400", subsets: ["latin"] });
 
 const Revolte = () => (
   <>
-    <div className="flex justify-center items-center">
-      <div>
-        <h1 className="text-center font-permarker text-[50px]  mt-10 ">
+    <div className="flex justify-center items-center mt-5 ">
+      <div className={permarker.className}>
+        <h1 className="text-center text-[50px] md:text-[80px] -mb-3 md:-mb-5 ">
           Revolte
         </h1>
-        <h2 className="text-center font-semibold text-[20px]  mb-10">
+        <h2 className="text-center font-semibold text-[18px] md:text-[26px] ">
           Story of a whistleblower
         </h2>
       </div>
@@ -16,9 +19,9 @@ const Revolte = () => (
         href="https://www.revolte.app/"
         target="_blank"
         rel="noopener noreferrer"
-        className="opacity-80 hover:opacity-100"
+        className="opacity-90 hover:opacity-100"
       >
-        <div className="mx-10">
+        <div className="ml-10">
           <Image src="/link.svg" alt="Website" width={50} height={50} />
         </div>
       </Link>

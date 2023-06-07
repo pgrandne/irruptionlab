@@ -67,7 +67,7 @@ export const insights = [
         imgUrl: '/autonomous_world.png',
         title: 'Autonomous World winner with Revolte',
         subtitle:
-            'Winner of ETHGlobal hackathon "Autonomous World", with Revolte: \n🏅 Top 10 projects — NFT Storage',
+            'Winner of ETHGlobal hackathon "Autonomous World" (among 121 projects), with Revolte: \n🏅 Top 10 projects — NFT Storage',
         urlExt: "https://ethglobal.com/showcase/revolte-dc1y9",
     },
     {
@@ -95,7 +95,7 @@ export const insights = [
         imgUrl: '/NPNG-Hackathon.png',
         title: 'ETH Online 2022 winner with No Pool No Game',
         subtitle:
-            'Winner of several prizes from ETHOnline 2022 hackathon by ETHGlobal (1,780 participants from 100 countries), with No Pool No Game:\n🥇 1st Place Stablecoin Growth — AAVE Grants DAO \n🥇 1st Place Best Optimism Game — Optimism \n🥇 Top 10 projects — Optimism',
+            'Winner of several prizes from ETHOnline 2022 hackathon by ETHGlobal (1,780 participants from 100 countries), with No Pool No Game:\n🥇 1st Place Stablecoin Growth — AAVE Grants DAO \n🥇 1st Place Best Optimism Game — Optimism \n🏅 Top 10 projects — Optimism',
         urlExt: "https://ethglobal.com/showcase/no-pool-no-game-4cahd",
     },
 ];
